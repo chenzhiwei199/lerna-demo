@@ -1,0 +1,73 @@
+{
+  "name": "@alife/cube-core",
+  "version": "1.0.0",
+  "description": "透视表",
+  "main": "index.js",
+  "author": {
+    "name": "leo.czw",
+    "email": "leo.czw@alibaba-inc.com"
+  },
+  "scripts": {
+    "lint": "kyle --types js --fix",
+    "precommit": "npm run lint",
+    "dev": "tsc -w",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "just": {
+    "type": "component/assets-react",
+    "plugin": {
+      "assets": "*"
+    }
+  },
+  "builder": {
+    "feature": {
+      "typescript": true
+    }
+  },
+  "dependencies": {
+    "decimal.js": "^10.2.0",
+    "expr-eval": "^2.0.2",
+    "lodash": "^4.17.15"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@ali/just-builder-assets-react": "1.x",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-typescript": "^7.7.2",
+    "@types/jest": "^22.1.1",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/uuid": "^3.4.6",
+    "babel-jest": "^24.9.0",
+    "classnames": "^2.2.3",
+    "husky": "0.x",
+    "jest": "^24.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-lint": "^4.5.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "keywords": [
+    "just",
+    "component",
+    "pivot-chart-d3"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}

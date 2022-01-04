@@ -1,0 +1,76 @@
+{
+  "name": "@alife/pivot-chart-d3",
+  "version": "1.0.0",
+  "description": "透视表",
+  "main": "index.js",
+  "author": {
+    "name": "leo.czw",
+    "email": "leo.czw@alibaba-inc.com"
+  },
+  "scripts": {
+    "lint": "kyle --types js --fix",
+    "precommit": "npm run lint",
+    "dev": "just-builder-assets dev",
+    "watch": "just-builder-assets dev",
+    "build": "just-builder-assets build",
+    "test": "just-builder-assets test",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "just": {
+    "type": "component/assets-react",
+    "plugin": {
+      "assets": "*"
+    }
+  },
+  "builder": {
+    "feature": {
+      "typescript": true
+    }
+  },
+  "dependencies": {
+    "@alife/hippo": "^1.28.6",
+    "@types/d3": "^5.7.2",
+    "classnames": "^2.2.6",
+    "d3": "^5.11.0",
+    "lodash.flow": "^3.5.0",
+    "react": "^16.9.0",
+    "uuid": "^3.3.3"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@ali/just-builder-assets-react": "1.x",
+    "@types/jest": "^22.1.1",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "husky": "0.x",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "classnames": "^2.2.3",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-typescript": "^7.7.2",
+    "@types/uuid": "^3.4.6",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-lint": "^4.5.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "keywords": [
+    "just",
+    "component",
+    "pivot-chart-d3"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}

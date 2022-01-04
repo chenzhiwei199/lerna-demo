@@ -1,0 +1,27 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "install": " lerna exec -- tnpm install",
+    "publish": " lerna publish",
+    "check": "lerna changed",
+    "diff": "lerna diff",
+    "ls": "lerna ls",
+    "watch": "tnpm run bootstrap && lerna run --parallel watch"
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@storybook/addon-info": "^5.2.8",
+    "@types/jest": "^24.0.23",
+    "awesome-typescript-loader": "^5.2.1",
+    "jest": "^24.9.0",
+    "lerna": "^3.19.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "target": "es2019",
+    "jsx": "react",
+    "declaration": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "preserveWatchOutput": true,
+    "strictNullChecks": false,
+    "paths": {
+      "@alife/*": [ "packages/*/src"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts"]
+}

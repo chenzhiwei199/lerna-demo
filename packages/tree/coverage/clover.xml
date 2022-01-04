@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1574309393227" clover="3.2.0">
+  <project timestamp="1574309393228" name="All files">
+    <metrics statements="55" coveredstatements="45" conditionals="18" coveredconditionals="16" methods="23" coveredmethods="17" elements="96" coveredelements="78" complexity="0" loc="55" ncloc="55" packages="1" files="3" classes="3"/>
+    <file name="Graph.ts" path="/Users/czw/Documents/workspace/task-processing/packages/graph-core/src/Graph.ts">
+      <metrics statements="39" coveredstatements="33" conditionals="14" coveredconditionals="12" methods="15" coveredmethods="13"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="8" type="stmt"/>
+      <line num="30" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="33" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="4" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="56" count="6" type="stmt"/>
+      <line num="64" count="39" type="stmt"/>
+      <line num="76" count="0" type="stmt"/>
+      <line num="77" count="0" type="stmt"/>
+      <line num="78" count="0" type="stmt"/>
+      <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="80" count="0" type="stmt"/>
+      <line num="83" count="0" type="stmt"/>
+      <line num="91" count="18" type="cond" truecount="4" falsecount="0"/>
+      <line num="92" count="12" type="stmt"/>
+      <line num="94" count="48" type="stmt"/>
+      <line num="104" count="2" type="stmt"/>
+      <line num="105" count="2" type="stmt"/>
+      <line num="107" count="2" type="stmt"/>
+      <line num="108" count="6" type="stmt"/>
+      <line num="110" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="112" count="6" type="stmt"/>
+      <line num="114" count="4" type="stmt"/>
+      <line num="117" count="2" type="stmt"/>
+      <line num="118" count="2" type="stmt"/>
+      <line num="120" count="2" type="stmt"/>
+    </file>
+    <file name="RunningSet.ts" path="/Users/czw/Documents/workspace/task-processing/packages/graph-core/src/RunningSet.ts">
+      <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="utils.ts" path="/Users/czw/Documents/workspace/task-processing/packages/graph-core/src/utils.ts">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="14" type="stmt"/>
+      <line num="10" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="12" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="8" type="stmt"/>
+      <line num="23" count="8" type="stmt"/>
+    </file>
+  </project>
+</coverage>
